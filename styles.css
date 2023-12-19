@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Üstten mesafe */
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 60px;
+}
+
+/* Özel bir örneğin içeriği */
+
+/* Input stilini düzenle */
+
+/*
+input {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+*/
+
+/* Buton stilini düzenle */
+
+/*
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+*/
+/*
+button:hover {
+    background-color: #45a049;
+}
+*/
+
+/* Öneri: Burç sonuçları için bir kutu oluşturmak için bir class ekleyebilirsiniz */
+/* 
+.result-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+/*
+
+/* Örneğin: Sonuç kutusundaki başlığı düzenle */
+/*
+.result-box h2 {
+    color: #333;
+}
+*/
+
