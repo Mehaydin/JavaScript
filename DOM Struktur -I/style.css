@@ -1,0 +1,77 @@
+
+/* Navbar Stilleri */
+nav {
+    background-color: #ff0000; 
+    color: #ffffff;
+    display: flex; /*  nav elementini bir flex container (esnek konteyner) olarak düzenler.  */
+    justify-content: space-between; /* Flex container içindeki elemanları yatay (yatay eksende) düzenler. space-between, elemanları konteynerin başlangıcı ve sonu arasında eşit bir boşluk bırakarak düzenler. */
+    padding: 10px;
+}
+
+ul {
+    list-style: none; /* Liste işaretlerini kaldır */
+    display: flex; /* Flexbox kullanarak düzeni belirle */
+}
+
+li {
+    margin: 0; /* Liste elemanları arasındaki dış kenar boşluğunu sıfırla */
+}
+
+a {
+    text-decoration: none; /* Link altı çizgisini kaldır */
+    color: #ffffff;
+}
+
+/* "HiShoppers" solda, "About Us" sağda olması için */
+ul {
+    width: 100%; /* Listeyi yatay eksende genişlet */
+}
+
+li:first-child {
+    margin-right: auto; /* Listenin ilk elemanının sağ tarafındaki boşluğu genişlet (sola it) */
+}
+
+li:last-child {
+    margin-left: auto; /* Listenin son elemanının sol tarafındaki boşluğu genişlet (sağa it) */
+}
+
+
+/* İçerik Kartları Stilleri */
+.container {
+    display: flex; /* Flexbox kullanarak düzeni belirle */
+    justify-content: space-around;  /* Elemanları yatay eksende etrafında eşit aralıklarla yerleştir */
+    align-items: center; /* Elemanları dikey eksende ortala */
+    margin : 100px; /* Dış kenar boşluğu: üst, sağ, alt, sol (saat yönünün tersine) */
+    
+}
+
+.card {
+    width: 18rem; /* Kartın genişliğini belirle */
+    text-align: center; /* Kart içeriğini ortala */
+}
+
+
+.card img {
+    width: 100%; /* Resmin genişliğini belirle (kartın içinde) */
+    max-height: 300px; /* Resmin maksimum yüksekliğini belirle */
+}
+
+.card-body {
+    text-align: center; /* Kart içeriğini ortala */
+}
+
+/* Kartlar Arasında Boşluk Bırakma */
+.container > * {
+    margin-right: 10px;
+}
+
+/* Footer Stilleri */
+footer {
+    background-color: #ff0000; /* Kırmızı arka plan */
+    color: #ffffff;
+    text-align: center; /* Yazıyı ortala */
+    padding: 10px; /* İçeriğin kenar boşluğu: üst, sağ, alt, sol (saat yönünün tersine) */
+    position: fixed; /* Sabit konumlandırma kullan */
+    bottom: 0; /* Sayfanın altına sabitle */
+    width: 100%; /* Genişlik: 100% */
+}
